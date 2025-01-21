@@ -1,0 +1,20 @@
+{
+  "name": "fastify-test-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "dependencies": {
+    "@fastify/mongodb": "^9.0.2",
+    "fastify": "^5.2.1",
+    "fastify-cli": "^7.3.0",
+    "fastify-plugin": "^5.0.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "A simple api created with fastify framework and MongoDB database."
+}
